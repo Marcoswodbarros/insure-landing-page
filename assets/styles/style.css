@@ -1,1 +1,49 @@
-/*# sourceMappingURL=style.css.map */
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1.2rem;
+}
+nav h2 {
+  font-family: "DM Serif Display";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+nav button {
+  background-image: url("../images/icon-hamburger.svg");
+  background-size: cover;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+}
+
+main .main__section--intro {
+  background-color: hsl(256deg, 26%, 20%);
+  display: flex;
+  flex-direction: column;
+}
+main .main__section--intro h1 {
+  color: hsl(0deg, 0%, 98%);
+  font-family: "Karla";
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 3rem 1.5rem 1rem 1.5rem;
+}
+main .main__section--intro p {
+  color: hsl(0deg, 0%, 98%);
+  font-family: "Karla";
+  text-align: center;
+  line-height: 1.5rem;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+}
+main .main__section--intro a {
+  color: hsl(0deg, 0%, 98%);
+  font-family: "Karla";
+  text-align: center;
+  border: 1px solid hsl(0deg, 0%, 98%);
+  display: inline-block;
+  margin: 3rem auto 5rem auto;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

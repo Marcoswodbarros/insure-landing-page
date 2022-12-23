@@ -1,0 +1,33 @@
+@import '../abstract/variables';
+@import '../abstract/utilities';
+
+main{
+    .main__section--intro{
+        background-color: $color-dark-violet;
+        display: flex;
+        flex-direction: column;
+
+
+        h1{
+            @include textFormat;
+            font-size: 2.8rem;
+            padding: 3rem 1.5rem 1rem 1.5rem;
+        }
+
+        p{
+            @include textFormat;
+            line-height: 1.5rem;
+            padding-left: 1.7rem;
+            padding-right: 1.7rem;
+        }
+
+        a{
+            @include textFormat;
+            border: 1px solid $color-very-light-gray;
+            display: inline-block;
+            margin: 3rem auto 5rem auto;
+            padding: .5rem 2rem;
+            text-decoration: none;
+        }
+    }
+}
