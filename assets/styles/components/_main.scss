@@ -4,30 +4,60 @@
 main{
     .main__section--intro{
         background-color: $color-dark-violet;
-        display: flex;
-        flex-direction: column;
-
-
+        position: absolute;
+        height: 145vh;
+        
+        .section__intro--img{
+            width: 100vw;
+        }
+        
+        .first-style{
+            background-image: url('../images/bg-pattern-intro-left-mobile.svg');
+            background-position: cover;
+            background-repeat: no-repeat;
+            bottom: .5vh;
+            height: 25vh;
+            position: relative;
+        }
+        
+        .section__intro--container{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            bottom: 13vh;
+        }
+        
         h1{
             @include textFormat;
             font-size: 2.8rem;
-            padding: 3rem 1.5rem 1rem 1.5rem;
+            padding: 1rem 1.5rem 1rem 1.5rem;
         }
-
+        
         p{
             @include textFormat;
             line-height: 1.5rem;
             padding-left: 1.7rem;
             padding-right: 1.7rem;
         }
-
+        
         a{
             @include textFormat;
             border: 1px solid $color-very-light-gray;
             display: inline-block;
-            margin: 3rem auto 5rem auto;
+            margin: 3rem auto 0 auto;
             padding: .5rem 2rem;
             text-decoration: none;
+        }
+
+        .second-style{
+            background-image: url('../images/bg-pattern-intro-right-mobile.svg');
+            background-position: cover;
+            background-repeat: no-repeat;
+            bottom: 20vh;
+            height: 25vh;
+            left: 67vw;
+            position: relative;
+            width: 33vw;
         }
     }
 }

@@ -19,15 +19,32 @@ nav button {
 
 main .main__section--intro {
   background-color: hsl(256deg, 26%, 20%);
+  position: absolute;
+  height: 145vh;
+}
+main .main__section--intro .section__intro--img {
+  width: 100vw;
+}
+main .main__section--intro .first-style {
+  background-image: url("../images/bg-pattern-intro-left-mobile.svg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  bottom: 0.5vh;
+  height: 25vh;
+  position: relative;
+}
+main .main__section--intro .section__intro--container {
   display: flex;
   flex-direction: column;
+  position: relative;
+  bottom: 13vh;
 }
 main .main__section--intro h1 {
   color: hsl(0deg, 0%, 98%);
   font-family: "Karla";
   text-align: center;
   font-size: 2.8rem;
-  padding: 3rem 1.5rem 1rem 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
 }
 main .main__section--intro p {
   color: hsl(0deg, 0%, 98%);
@@ -43,7 +60,21 @@ main .main__section--intro a {
   text-align: center;
   border: 1px solid hsl(0deg, 0%, 98%);
   display: inline-block;
-  margin: 3rem auto 5rem auto;
+  margin: 3rem auto 0 auto;
   padding: 0.5rem 2rem;
   text-decoration: none;
+}
+main .main__section--intro .second-style {
+  background-image: url("../images/bg-pattern-intro-right-mobile.svg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  bottom: 20vh;
+  height: 25vh;
+  left: 67vw;
+  position: relative;
+  width: 33vw;
+}
+
+body {
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
