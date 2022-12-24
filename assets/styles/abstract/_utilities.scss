@@ -2,4 +2,12 @@
     color: $color-very-light-gray;
     font-family: $font-body;
     text-align: center;
+    line-height: 1.5rem;
+}
+
+@mixin iconFormat {
+    background-color: $color-grayish-blue;
+    border-radius: 50%;
+    color: $color-very-light-gray;
+    padding: 1rem;
 }

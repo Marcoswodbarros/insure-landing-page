@@ -4,7 +4,6 @@
 main{
     .main__section--intro{
         background-color: $color-dark-violet;
-        position: absolute;
         height: 145vh;
         
         .section__intro--img{
@@ -30,7 +29,7 @@ main{
         h1{
             @include textFormat;
             font-size: 2.8rem;
-            padding: 1rem 1.5rem 1rem 1.5rem;
+            padding: 1rem 1.4rem 1rem 1.4rem;
         }
         
         p{
@@ -58,6 +57,59 @@ main{
             left: 67vw;
             position: relative;
             width: 33vw;
+        }
+    }
+
+    .section__container{
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            
+            hr{
+                margin-bottom: 2rem;
+                width: 40vw;
+            }
+
+            .section__container--title{
+                font-family: $font-heading;
+                font-size: 2.8rem;
+                text-align: center;
+                margin-bottom: 2.5rem;
+            }
+
+            .fa-bolt-lightning{
+                @include iconFormat;
+                padding: 1rem 1.1rem;
+            }
+
+            .section__container--subtitle{
+                font-family: $font-heading;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            .section__container--text{
+                @include textFormat;
+                color: $color-dark-grayish-violet;
+                padding: auto 1.6rem;
+                margin-bottom: 4rem;
+            }
+        }
+
+        section{
+            .fa-dollar-sign{
+                @include iconFormat;
+                padding-left: 1.1rem;
+                padding-right: 1.2rem;
+            }
+        }
+
+        section{
+            .fa-user{
+                @include iconFormat;
+            }
         }
     }
 }
