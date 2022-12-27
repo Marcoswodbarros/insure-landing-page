@@ -19,25 +19,16 @@ nav button {
 
 main .main__section--intro {
   background-color: hsl(256deg, 26%, 20%);
-  height: 145vh;
   max-height: 145vh;
 }
 main .main__section--intro .section__intro--img {
   width: 100vw;
 }
-main .main__section--intro .first-style {
-  background-image: url("../images/bg-pattern-intro-left-mobile.svg");
-  background-position: cover;
-  background-repeat: no-repeat;
-  bottom: 0.5vh;
-  height: 25vh;
-  position: relative;
-}
 main .main__section--intro .section__intro--container {
+  background-image: url("../images/bg-pattern-intro-left-mobile.svg");
+  background-repeat: no-repeat;
   display: flex;
-  bottom: 13vh;
   flex-direction: column;
-  position: relative;
 }
 main .main__section--intro h1 {
   color: hsl(0deg, 0%, 98%);
@@ -46,7 +37,7 @@ main .main__section--intro h1 {
   line-height: 1.5rem;
   font-size: 2.8rem;
   line-height: 3rem;
-  padding: 1rem 1.4rem 1rem 1.4rem;
+  padding: 5.7rem 1.4rem 1rem 1.4rem;
 }
 main .main__section--intro p {
   color: hsl(0deg, 0%, 98%);
@@ -70,19 +61,19 @@ main .main__section--intro a {
 }
 main .main__section--intro .second-style {
   background-image: url("../images/bg-pattern-intro-right-mobile.svg");
-  background-position: cover;
   background-repeat: no-repeat;
-  bottom: 22vh;
-  height: 25vh;
-  left: 67vw;
+  background-position: top right;
+  bottom: 10vh;
+  height: 21rem;
   position: relative;
-  width: 33vw;
+  width: 100%;
 }
 main .section__container section {
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 6rem;
 }
 main .section__container section hr {
   margin-bottom: 2rem;
@@ -132,9 +123,12 @@ main .section__container section .fa-user {
 main .findout {
   align-items: center;
   background-color: hsl(256deg, 26%, 20%);
+  background-image: url("../images/bg-pattern-how-we-work-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right;
   display: flex;
   flex-direction: column;
-  margin: 2rem;
+  margin: 4rem 2rem 8rem 2rem;
 }
 main .findout h2 {
   color: hsl(0deg, 0%, 98%);
@@ -152,6 +146,49 @@ main .findout a {
   padding: 0.5rem 1rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+footer {
+  background-image: url("../images/bg-pattern-footer-mobile.svg");
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
+}
+footer h2 {
+  font-family: "Karla";
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 4rem 1.5rem 1.5rem 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer .footer__container--img {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+footer hr {
+  width: 80vw;
+}
+footer h3 {
+  color: hsl(273deg, 4%, 51%);
+  font-family: "Karla";
+  font-weight: 700;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer ul li {
+  font-family: "Karla";
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 body {
