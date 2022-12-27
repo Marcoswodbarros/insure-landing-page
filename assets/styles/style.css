@@ -35,9 +35,9 @@ main .main__section--intro .first-style {
 }
 main .main__section--intro .section__intro--container {
   display: flex;
+  bottom: 13vh;
   flex-direction: column;
   position: relative;
-  bottom: 13vh;
 }
 main .main__section--intro h1 {
   color: hsl(0deg, 0%, 98%);
@@ -79,9 +79,9 @@ main .main__section--intro .second-style {
   width: 33vw;
 }
 main .section__container section {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
 }
 main .section__container section hr {
@@ -91,15 +91,15 @@ main .section__container section hr {
 main .section__container section .section__container--title {
   font-family: "DM Serif Display";
   font-size: 2.8rem;
-  text-align: center;
   margin-bottom: 2.5rem;
+  text-align: center;
 }
 main .section__container section .fa-bolt-lightning {
   background-color: hsl(216deg, 30%, 68%);
   border-radius: 50%;
   color: hsl(0deg, 0%, 98%);
-  padding: 1rem;
-  padding: 1rem 1.1rem;
+  padding: 1.5rem;
+  padding: 1.5rem 1.6rem;
 }
 main .section__container section .section__container--subtitle {
   font-family: "DM Serif Display";
@@ -112,22 +112,46 @@ main .section__container section .section__container--text {
   text-align: center;
   line-height: 1.5rem;
   color: hsl(273deg, 4%, 51%);
-  padding: auto 1.6rem;
   margin-bottom: 4rem;
+  padding: 0 1.6rem;
 }
 main .section__container section .fa-dollar-sign {
   background-color: hsl(216deg, 30%, 68%);
   border-radius: 50%;
   color: hsl(0deg, 0%, 98%);
-  padding: 1rem;
-  padding-left: 1.1rem;
-  padding-right: 1.2rem;
+  padding: 1.5rem;
+  padding-left: 1.6rem;
+  padding-right: 1.7rem;
 }
 main .section__container section .fa-user {
   background-color: hsl(216deg, 30%, 68%);
   border-radius: 50%;
   color: hsl(0deg, 0%, 98%);
-  padding: 1rem;
+  padding: 1.5rem;
+}
+main .findout {
+  align-items: center;
+  background-color: hsl(256deg, 26%, 20%);
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+main .findout h2 {
+  color: hsl(0deg, 0%, 98%);
+  font-family: "Karla";
+  font-size: 2rem;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+main .findout a {
+  border: 1px solid hsl(0deg, 0%, 98%);
+  color: hsl(0deg, 0%, 98%);
+  display: inline-block;
+  font-family: "Karla";
+  margin-bottom: 3rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 body {
