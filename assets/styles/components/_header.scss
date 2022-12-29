@@ -19,4 +19,14 @@ nav{
         height: 2rem;
         width: 2rem;
     }
+
+    .header__nav--secondbtn{
+        background-image: url('../images/icon-close.svg');
+        background-size: cover;
+        border: none;
+        height: 2rem;
+        width: 2rem;
+
+        display: none;
+    }
 }

@@ -16,6 +16,14 @@ nav button {
   height: 2rem;
   width: 2rem;
 }
+nav .header__nav--secondbtn {
+  background-image: url("../images/icon-close.svg");
+  background-size: cover;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  display: none;
+}
 
 main .main__section--intro {
   background-color: hsl(256deg, 26%, 20%);
@@ -62,7 +70,7 @@ main .main__section--intro a {
 main .main__section--intro .second-style {
   background-image: url("../images/bg-pattern-intro-right-mobile.svg");
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: right;
   bottom: 10vh;
   height: 21rem;
   position: relative;
