@@ -76,6 +76,44 @@ main .main__section--intro .second-style {
   position: relative;
   width: 100%;
 }
+main .submenu {
+  align-items: center;
+  background-color: hsl(270deg, 9%, 17%);
+  display: flex;
+  flex-direction: column;
+  height: 90.4vh;
+  display: none;
+}
+main .submenu ul li {
+  color: hsl(0deg, 0%, 98%);
+  font-family: "Karla";
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+}
+main .submenu ul li:nth-child(1) {
+  padding-top: 4rem;
+}
+main .submenu a {
+  border: 1px solid hsl(0deg, 0%, 98%);
+  color: hsl(0deg, 0%, 98%);
+  display: inline-block;
+  font-family: "Karla";
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  width: 80%;
+}
+main .submenu .submenu__background {
+  background-image: url("../images/bg-pattern-mobile-nav.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 50%;
+  width: 100vw;
+}
 main .section__container section {
   align-items: center;
   display: flex;

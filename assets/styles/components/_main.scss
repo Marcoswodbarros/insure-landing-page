@@ -51,6 +51,51 @@ main{
         }
     }
 
+    .submenu{
+        align-items: center;
+        background-color: $color-very-dark-violet;
+        display: flex;
+        flex-direction: column;
+        height: 90.4vh;
+
+        display: none;
+        ul{
+            li{
+                color: $color-very-light-gray;
+                font-family: $font-body;
+                font-size: 1.5rem;
+                text-align: center;
+                text-transform: uppercase;
+                padding: 1.5rem 0;
+
+                &:nth-child(1){
+                    padding-top: 4rem;
+                }
+            }
+        }
+
+        a{
+            border: 1px solid $color-very-light-gray;
+            color: $color-very-light-gray;
+            display: inline-block;
+            font-family: $font-body;
+            font-size: 1.5rem;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: .5rem;
+            width: 80%;
+        }
+
+        .submenu__background{
+            background-image: url('../images/bg-pattern-mobile-nav.svg');
+            background-repeat: no-repeat;
+            background-position: bottom;
+            height: 50%;
+            width: 100vw;
+        }
+    }
+
     .section__container{
         section{
             align-items: center;
